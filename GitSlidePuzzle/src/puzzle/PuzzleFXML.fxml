@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="puzzle.PuzzleFXMLController">
+    <stylesheets>
+        <URL value="@PuzzleFXML.css" />
+    </stylesheets>
+   <children>
+      <BorderPane layoutX="14.0" layoutY="8.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <top>
+            <HBox alignment="CENTER_LEFT">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefWidth="250.0" spacing="10.0" HBox.hgrow="NEVER">
+                     <children>
+                        <Label styleClass="display-label" text="Count" />
+                        <Label fx:id="countLabel" styleClass="display-result-label" text="0" />
+                     </children>
+                  </HBox>
+                  <HBox HBox.hgrow="ALWAYS" />
+                  <HBox alignment="CENTER_RIGHT" prefWidth="250.0" spacing="10.0" HBox.hgrow="NEVER">
+                     <children>
+                        <Label styleClass="display-label" text="Time" />
+                        <Label fx:id="timeLabel" styleClass="display-result-label" text="0" />
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+         </top>
+         <left>
+            <VBox prefWidth="10.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <VBox prefWidth="10.0" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <HBox spacing="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane fx:id="gamePane" prefHeight="322.0" prefWidth="322.0" styleClass="game-panel" HBox.hgrow="NEVER">
+                     <children>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="answerPane" prefHeight="322.0" prefWidth="322.0" styleClass="game-panel" HBox.hgrow="NEVER">
+                     <children>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </center>
+         <bottom>
+            <HBox alignment="CENTER_RIGHT" spacing="15.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <HBox alignment="CENTER_LEFT" HBox.hgrow="SOMETIMES">
+                     <children>
+                        <Label fx:id="gameOver" styleClass="display-result-label" text="Game Over" visible="false" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="resetButton" mnemonicParsing="false" onAction="#resetButtonClick" prefHeight="30.0" prefWidth="100.0" text="Reset">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitButtonClick" prefHeight="30.0" prefWidth="100.0" text="Close">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

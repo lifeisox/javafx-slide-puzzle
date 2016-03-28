@@ -1,0 +1,170 @@
+/* Pane */
+.background {
+    -fx-background-color: black;
+}
+
+.game-panel {
+    -fx-background-color:#0f0f0f;
+    -fx-border-color:black;
+    -fx-border-width:1px;
+}
+
+/* Label */
+.display-label {
+    -fx-font-family: arial;
+    -fx-font-size: 18;
+    -fx-font-style: normal; /* normal | italic | oblique */ 
+    -fx-font-weight: bold; /* normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 */
+    -fx-text-fill: white;
+    -fx-text-alignment: left; /* left | center | right | justify */
+} 
+
+.display-result-label {
+    -fx-font-family: arial;
+    -fx-font-size: 18;
+    -fx-font-style: normal; /* normal | italic | oblique */ 
+    -fx-font-weight: bold; /* normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 */
+    -fx-text-fill: gold;
+    -fx-text-alignment: left; /* left | center | right | justify */    
+}
+
+.puzzle-style-no0 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #0000ff, #000020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+
+.puzzle-style-no1 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #ff0000, #200000);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no2 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #00ff00, #002000);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no3 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #00ffff, #002020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;   
+}
+ 
+.puzzle-style-no4 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #ffff00, #202000);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no5 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #ff00ff, #200020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no6 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #808000, #202020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no7 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #008080, #002020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no8 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #800080, #200020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no9 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #8080ff, #202080);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no10 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #ff8080, #802020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no11 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #80ff80, #20ff20);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no12 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #808080, #202020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no13 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #ffffff, #202020);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+ 
+.puzzle-style-no14 {
+    -fx-fill: radial-gradient(focus-angle 45deg, focus-distance 25%, center 25% 25%, radius 100%, reflect, #4040ff, #202080);
+    -fx-smooth: true;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+    -fx-cursor: hand;
+}
+
+.puzzle-style-no15 {
+    -fx-stroke: black;
+    -fx-fill: BLACK;
+}
+     
